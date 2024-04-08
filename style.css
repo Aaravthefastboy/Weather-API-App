@@ -1,0 +1,60 @@
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  background-color: #dcdcdc;
+}
+
+.weather-condition{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.weather-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+#tempr{
+  font-size: 50px;
+  margin: 0;
+}
+
+#location{
+  font-size: 20px;
+  margin: 0;
+}
+
+#condition{
+  font-size: 20px;
+  margin: 0;
+}
+
+button{
+  background-color: #0496c7;
+  color: white;
+  border-radius: 14px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type = "text"]{
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: none;
+  
+}
